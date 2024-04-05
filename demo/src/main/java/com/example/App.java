@@ -14,7 +14,7 @@ import java.time.Period;
 public class App extends Application {
     
     @Override
-    public void start(Stage primaryStage) {
+    public void start(@SuppressWarnings("exports") Stage primaryStage) {
         // Crear elementos de la interfaz de usuario
         Label titleLabel = new Label("Calculadora de Edad");
         DatePicker birthDatePicker = new DatePicker();
